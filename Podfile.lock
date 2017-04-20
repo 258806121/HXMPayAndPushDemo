@@ -1,0 +1,33 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UMengUShare/Core (6.4.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.1)
+  - UMengUShare/Social/QQ (6.4.1):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.1):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI (6.4.1):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - SDWebImage
+  - UMengUShare/Social/QQ (~> 6.4.1)
+  - UMengUShare/Social/WeChat (~> 6.4.1)
+  - UMengUShare/UI (~> 6.4.1)
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UMengUShare: 7756e2e46ceba04e3000fb2c9b1d3f61784ca2ff
+
+PODFILE CHECKSUM: f4cd1e705394efb7a0c081e41786202b57fe97a3
+
+COCOAPODS: 1.0.0.rc.2

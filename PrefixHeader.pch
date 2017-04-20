@@ -1,0 +1,63 @@
+//
+//  PrefixHeader.pch
+//  PayDemo_01
+//
+//  Created by 侯绪铭 on 2017/3/23.
+//  Copyright © 2017年 HXM. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+
+/*
+ *  支付结果状态
+ */
+#define k_PayStatus_Success       @"支付成功"
+#define k_PayStatus_Cancel        @"您取消了支付"
+#define k_PayStatus_Fail          @"支付失败"
+
+// 微信支付
+#define k_noti_WXPayCallBackSuccess            @"k_noti_WXPayCallBackSuccess"
+#define k_noti_WXPayCallBackCancel             @"k_noti_WXPayCallBackCancel"
+#define k_noti_WXPayCallBackFail               @"k_noti_WXPayCallBackFail"
+
+// 支付宝支付
+#define k_noti_AliPayCallBackSuccess           @"k_noti_AliPayCallBackSuccess"
+#define k_noti_AliPayCallBackCancel            @"k_noti_AliPayCallBackCancel"
+#define k_noti_AliPayCallBackFail              @"k_noti_AliPayCallBackFail"
+
+// 推送相关 key
+#define k_Noti_Push_HasMessage                 @"k_Noti_Push_HasMessage"
+#define k_Noti_Push_MessageNotReadNumber       @"k_Noti_Push_MessageNotReadNumber"
+
+// 用户属性
+#define k_UD_deviceToken            @"k_UD_deviceToken"        //用户的
+#define k_UD_isLogin                @"k_UD_isLogin"        //是否登录
+
+/*
+ *  获得工程的appdelegate单例
+ */
+#define ApplicationDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+/**
+ *  友盟分享
+ */
+#define k_UShare_AppKey    @"5861e5daf5ade41326001eab"
+
+/**
+ *  QQ开放平台
+ */
+#define k_QQ_AppID      @"1105054182"
+//#define k_QQ_APPKEY     @"ytVKSecdMjQavEKW"
+
+/**
+ *  微信开放平台
+ */
+#define k_WX_AppID      @"wxb09e37497626c040"
+#define k_WX_AppSecret  @"e7862ac3c7c59c766f49a1935b443af8"
+#define k_WX_ShareURL1  @"https://itunes.apple.com/us/app/yue-mei-zhi-hui-shang-ye-mei/id1072681882?l=zh&ls=1&mt=8"
+
+#endif /* PrefixHeader_pch */
